@@ -2,7 +2,7 @@
 
 kafka producers and consumers created with Java, Node.js, and python
 
-- Created a down-resistant kafka cluster that allows prducing and consuming of messages with replication in multiple kafka servers(brokers), and multiple partitions
+- Created a down-resistant kafka cluster that allows producing and consuming of messages with replication in multiple kafka servers(brokers), and multiple partitions
 
 - Created a kafka producer that could send numbers or formatted messages and kafka consumers that could consume messages with auto commit, consume messages with manual commit and consume messages with auto commit from specific partitions with Java
 
