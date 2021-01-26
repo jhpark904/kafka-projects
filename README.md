@@ -1,11 +1,31 @@
-# kafka-projects | Apache Kafka, Java, Node.js, Python 
+# Kafka Producers & Consumers
 
-kafka producers and consumers created with Java, Node.js, and python
+## Project Overview
 
-- Created a down-resistant kafka cluster that allows producing and consuming of messages with replication in multiple kafka servers(brokers), and multiple partitions
+Kafka Producers & Consumers is a series of producers and consumers created with Python, Node.js, and Java. I worked on this project to gain a better understanding of Apache Kafka. Kafka Producers & Consumers lets users to produce and consume messages in a down-resistance and reliable Apache Kafka cluster created with both a replication factor and a partition greater than 1.
 
-- Created a kafka producer that could send numbers or formatted messages and kafka consumers that could consume messages with auto commit, consume messages with manual commit and consume messages with auto commit from specific partitions with Java
+## Project Demo
 
-- Created a kafka producer that unlimitedly sends a randomly generated android-id every second and a kafka consumer that consumes all the android-ids sent from the producer including previously sent android-ids with Node.js
+[See Project](https://t-shirt-mall.herokuapp.com/)
 
-- Created a producer that endlessly generates and sends a batch of 100 fake profiles with features including current geolocation, residence, SSN, birthday, email, website url, etc according to user input and a consumer that reads messages sent from the producer with python
+
+## Scope of Functionality
+
+The application supports:
+ - replication of messages produced into multiple partitions
+ - a Java kafka producer that sends formatted messages
+ - a Java kafka consumer that consumes messages with auto commit
+ - a Java kafka consumer that consumes messages with manual commit
+ - a Java kafka consumer that consumes messages from specific partitions
+ - a Node.js kafka producer that unlimitedly sends out randomly generated IDs
+ - a Node.js kafka consumer that consumes the android IDs
+ - a Python kafka producer that sends a batch of 100 fake profiles with features including geolocation, residence, SSN, birthday, email, website url, etc based on user input
+ - a Python kafka consumer that reads fake profiles
+
+The application does not support:
+ - aesthetically pleasing frontend
+
+## Technologies Used
+ 
+ - Apache Kafka: for creating consumers and providing communication between producers and consumers
+ - Java & Node.js & Python: for developing producers and consumers
