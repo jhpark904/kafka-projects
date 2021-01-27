@@ -6,7 +6,7 @@ Kafka Producers & Consumers is a series of producers and consumers created with 
 
 ## Project Demo
 
-[See Project](https://www.youtube.com/watch?v=DKHE9M59lEk)
+[See project](https://www.youtube.com/watch?v=DKHE9M59lEk)
 
 
 ## Scope of Functionality
